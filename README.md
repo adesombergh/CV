@@ -19,16 +19,16 @@ Period | Where | What
 
 
 ## Work Experience
-#### **June – July 2012** Analyst Intern, Barclays
+#### June – July 2012 Analyst Intern, Barclays
 * Ownership of financial modelling project; presented strategy to management board; recommendations were implemented as a result.
 * Researched and prepared slides for client pitches; contributed ideas to senior level meetings.
 * Developed excellent commercial awareness through client management and participation in
 intensive training programme.
-#### **January-March 2012** Social Enterprise Volunteer, GoGreen Centre
+#### January-March 2012 Social Enterprise Volunteer, GoGreen Centre
 * Developed annual business strategy with specific focus on budget allocation and identified
 fundraising opportunities to increase growth and impact of the third sector organisation.
 * Re- modelled the company blog and increased readership by 25% in two months.
-#### **May 2009 – March 2011** Customer Assistant, Tesco
+#### May 2009 – March 2011 Customer Assistant, Tesco
 * Stock level management, product location, serving on the tills, and customer service.
 
 
