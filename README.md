@@ -39,7 +39,12 @@ fundraising opportunities to increase growth and impact of the third sector orga
 
 ## Skills and Interests
 Languages: French (intermediate) and Spanish (Basic).
+
 Computer skills: Advanced Microsoft Office user; Word, Access and Excel.
-Awards: Enterprising Student of the Year Award for WISE (working in social enterprise). Interests: Volunteered on conservation project and travelled for 3 months in South East Asia; keen rower and skier.
+
+Awards: Enterprising Student of the Year Award for WISE (working in social enterprise).
+
+Interests: Volunteered on conservation project and travelled for 3 months in South East Asia; keen rower and skier.
+
 References available on request
    
