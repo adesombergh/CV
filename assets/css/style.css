@@ -1,0 +1,319 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	background-color: transparent; 
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: transparent; 
+	color: #fff;
+	font-weight: 800;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: transparent; 
+	color: #000;
+}
+
+.navbar-default {
+	border-bottom: none;
+}
+
+
+
+
+
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight:800;
+	color: #fff;
+	text-shadow: 1px 1px rgba(0,0,0,.2);
+	font-size: 100px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	font-size: 33px;
+	color: #fff;
+	text-align: center;
+}
+
+h3{
+	font-family: Bungee, sans-serif;
+	font-weight:400;
+	color: #fff;
+	text-shadow: 1px 1px rgba(0,0,0,.2);
+	font-size: 45px;
+	text-align: center;
+}
+
+p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	font-size: 25px;
+	padding: 20px 0;
+	text-shadow: 1px 1px rgba(0,0,0,.2);
+	text-align: center;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+}
+
+
+
+/***********************************************************************************************************/
+/* SECTION 1 */
+#intro {
+    background-color: #d1675a;
+}
+
+#intro .row {
+	padding-top: 50px;
+}
+
+#intro h1 {
+	padding-top: 50px;
+}
+
+
+
+
+/***********************************************************************************************************/
+/* SECTION 2 */
+	#explication {
+		background-color: #398eb2;
+	}
+	#explication p{
+		color: #ddd;
+		text-shadow: none;
+		font-size: 12px;
+	}
+	#explication p strong{
+		font-size: 24px;
+	}
+
+
+
+/***********************************************************************************************************/
+/* SECTION 3 */
+#formation{
+	background-color: #153d52;
+}
+
+.center-table {
+  display: table;
+  height: 300px;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#formation h3 {
+  text-align: center;
+  display: block;
+}
+
+#formation .tablepaps {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#formation table {
+	padding: 10px;
+	color: #153d52;
+	background-color: #e7ebed;
+	border-radius: 10px;
+	box-shadow: 2px 2px #000;
+}
+
+
+/***********************************************************************************************************/
+/* SECTION 4 */
+#section4{
+	background-color: #ffbf6b;
+	height: 3000px;
+}
+#section4 p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	font-size: 25px;
+	padding: 20px 0;
+}
+
+
+
+
+
+/***********************************************************************************************************/
+/* SECTION 5 */
+
+#contact{
+	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+	background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
+	background: linear-gradient(#4BBFC3,#7BAABE);
+}
+
+	#contact p {
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-weight:700;
+		font-size: 25px;
+		padding: 20px 0;
+	}
+
+
+
+
+
+/***********************************************************************************************************/
+/* SECTION 6 */
+#skills {
+	background-color: #d1675a;
+}
+#skills .spacer{
+	height:180px;
+}
+#skills p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size: 25px;
+	padding: 20px 0;
+}
+
+	#skills p.list{
+		color: #fff;
+		font-family: 'Bungee', sans-serif;
+		font-weight:400;
+		font-size: 25px;
+		padding: 20px 0;
+	}
+
+
+
+
+
+/***********************************************************************************************************/
+/* SECTION 8 */
+#loula{
+	background-color: #398eb2;
+}
+
+
+#loula h2{
+	color: #153d52;
+	font-weight: 300;
+}
+
+#loula .center-block{
+	width:340px;
+	height:340px;
+	position: relative;
+}
+
+#loula img{
+	width: 240px;
+	height: 240px;
+    -webkit-transition: width 1s, height 1s; /* Safari */
+    transition: width 1s, height 1s;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 1px solid #000;
+}
+
+
+#loula img:hover{
+	width: 340px;
+	height: 340px;
+
+}
+
+
+/***********************************************************************************************************/
+/* SECTION 9 */
+#section9{
+	background-color: #153d52;
+
+	background: -webkit-gradient(linear, top left, bottom left, from(#e7e9bb), to(#949283));
+	background: -webkit-linear-gradient(#e7e9bb, #949283);
+	background: linear-gradient(#e7e9bb,#949283);
+}
+
+
+/***********************************************************************************************************/
+/* SECTION 10 */
+#section10{
+	background-color: #153d52;
+
+	background: -webkit-gradient(linear, top left, bottom left, from(#949283), to(#403b4a));
+	background: -webkit-linear-gradient(#949283, #403b4a);
+	background: linear-gradient(#949283,#403b4a);
+
+}
+
+	#section10 h1{
+		font-family: "Open Sans";
+		font-weight: 400;
+		font-style: italic;
+		font-size: 4vw;
+
+		padding-left: 9vw;
+		position: relative;
+		text-align: left;
+	}
+
+
+	#section10 h1:before{
+		font-family: "Bungee";
+		font-weight: 400;
+		font-size: 10vw;
+
+		display: block;
+	    content: "\201C";
+	    position: absolute;
+	    left: -1vw;
+	    top: -1vw;
+	}
+
+	#section10 h2{
+		font-family: "Montserrat";
+		font-weight: 200;
+		font-size: 3vw;
+		text-align: right;
+		padding-top: 7vw;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
