@@ -179,7 +179,9 @@ a:hover {
 		padding: 20px 0;
 	}
 
-
+	#contact .btn-primary {
+		background-color: #77B6EA;
+	}
 
 
 
@@ -302,10 +304,6 @@ a:hover {
 		text-align: right;
 		padding-top: 7vw;
 	}
-
-
-
-
 
 
 

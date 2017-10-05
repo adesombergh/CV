@@ -2,6 +2,7 @@
 function mail_master()
 {
 	if (mailCheck()) {
+		secureMail();
 		$sent = sendmail($_POST['nom'],$_POST['email'],$_POST['msg']);
 		if ($sent) {
 			$status['success'] = true;
@@ -26,6 +27,12 @@ function mailCheck()
 	} else {
 		return false;
 	}
+}
+
+function secureMail()
+{
+	$_POST['msg'] = htmlspecialchars($_POST['msg']);
+	$_POST['nom'] = htmlspecialchars($_POST['nom']);
 }
 
 

@@ -30,6 +30,7 @@ function page_renderer($status){
 				<?php include_once('sections/3formation.php'); ?>
 				<?php include_once('sections/4skills.php'); ?>
 				<?php include_once('sections/5contact.php'); ?>
+				<?php include_once('sections/6loula.php'); ?>
 			</div>
 		</div>
 
