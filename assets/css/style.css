@@ -95,15 +95,15 @@ a:hover {
 
 /***********************************************************************************************************/
 /* SECTION 2 */
-	#explication {
+	#resume {
 		background-color: #398eb2;
 	}
-	#explication p{
+	#resume p{
 		color: #ddd;
 		text-shadow: none;
 		font-size: 12px;
 	}
-	#explication p strong{
+	#resume p strong{
 		font-size: 24px;
 	}
 

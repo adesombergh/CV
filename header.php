@@ -13,15 +13,11 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav" id="menu">
-	        <li><a href="#intro">Intro</a></li>
-	        <li><a href="#explication">Résumé</a></li>
-	        <li><a href="#formation">Formations</a></li>
-	        <li><a href="#skills">Skills</a></li>
-	        <li><a href="#contact">Contact</a></li>
-	      </ul>
-
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Link</a></li>
+	        <li data-menuanchor="section1"><a href="#section1">Intro</a></li>
+	        <li data-menuanchor="section2"><a href="#section2">Résumé</a></li>
+	        <li data-menuanchor="section3"><a href="#section3">Formations</a></li>
+	        <li data-menuanchor="section4"><a href="#section4">Skills</a></li>
+	        <li data-menuanchor="section5"><a href="#section5">Contact</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 

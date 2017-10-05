@@ -1,4 +1,4 @@
-<div class="section" id="explication">
+<div class="section" id="resume" data-anchor="section1">
 	<div class="container">
 		<h2>
 			Ceci est mon CV

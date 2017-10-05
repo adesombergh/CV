@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Desombergh.be</title>
-
+		<link rel="icon" href="assets/images/favicon.ico">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,800|Open+Sans:300,400,700|Bungee:400" rel="stylesheet">
@@ -22,18 +22,12 @@
 	<body>
 		<div id="site">
 			<?php include_once('header.php'); ?>
-
 			<div id="sections">
-			
-				<?php include_once('intro.php'); ?>
-				<?php include_once('explication.php'); ?>
-				<?php include_once('formation.php'); ?>
-				<?php include_once('skills.php'); ?>
-				<?php include_once('contact.php'); ?>
-				<?php include_once('loula.php'); ?>
-
-
-
+				<?php include_once('sections/1intro.php'); ?>
+				<?php include_once('sections/2resume.php'); ?>
+				<?php include_once('sections/3formation.php'); ?>
+				<?php include_once('sections/4skills.php'); ?>
+				<?php include_once('sections/5contact.php'); ?>
 			</div>
 		</div>
 
@@ -43,7 +37,6 @@
 		<!-- Bootstrap JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
 	</body>
 </html>

@@ -1,4 +1,4 @@
-<div class="section" id="contact">
+<div class="section" id="contact" data-anchor="section1">
 	<div class="visible-xs-block" style="height:75px;"></div>
 	<div class="container">
 		<div class="col-sm-8 col-sm-offset-2">

@@ -1,4 +1,4 @@
-<div class="section" id="skills">
+<div class="section" id="skills" data-anchor="section1">
 	<div class="visible-xs-block" style="height:75px;"></div>
 	<div class="container">
 		<p>En tant qu’inventeur débutant autodidacte voici mes outils préférés:</p>
