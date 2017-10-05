@@ -16,24 +16,27 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
-				<form action="" method="POST" class="form-horizontal" role="form">
+				<form action="" method="POST" class="form-horizontal" role="form" id="mailform">
 					<input type="hidden" name="action" id="action" value="sendmail">
 					<div class="form-group form-group-lg">
 						<label for="nom" class="col-sm-2 control-label">Pseudo</label>
 						<div class="col-sm-10">
 							<input type="text" name="nom" id="nom" class="form-control" placeholder="Pseudo">
+  							<span class="help-block hide"></span>
 						</div>
 					</div>
 					<div class="form-group form-group-lg">
 						<label for="email" class="col-sm-2 control-label">E-mail</label>
 						<div class="col-sm-10">
-							<input type="email" name="email" id="email" class="form-control" placeholder="E-mail">
+							<input type="text" name="email" id="email" class="form-control" placeholder="E-mail">
+  							<span class="help-block hide"></span>
 						</div>
 					</div>
 					<div class="form-group form-group-lg">
 						<label for="msg" class="col-sm-2 control-label">Message</label>
 						<div class="col-sm-10">
-							<textarea name="msg" id="textarea" class="form-control" rows="5" ></textarea>
+							<textarea name="msg" id="msg" class="form-control" rows="5" ></textarea>
+  							<span class="help-block hide"></span>
 						</div>
 					</div>
 					<div class="form-group form-group-lg">
