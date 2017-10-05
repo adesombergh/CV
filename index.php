@@ -1,42 +1,68 @@
-<!DOCTYPE html>
-<html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Desombergh.be</title>
-		<link rel="icon" href="assets/images/favicon.ico">
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,800|Open+Sans:300,400,700|Bungee:400" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.min.css" />
-		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
-	
-	<body>
-		<div id="site">
-			<?php include_once('header.php'); ?>
-			<div id="sections">
-				<?php include_once('sections/1intro.php'); ?>
-				<?php include_once('sections/2resume.php'); ?>
-				<?php include_once('sections/3formation.php'); ?>
-				<?php include_once('sections/4skills.php'); ?>
-				<?php include_once('sections/5contact.php'); ?>
-			</div>
-		</div>
+<?php 
 
-				<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		<!-- Bootstrap JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
-		<script type="text/javascript" src="assets/js/main.js"></script>
-	</body>
-</html>
+if (!empty($_POST))
+{
+	$status = dealWithPost();
+}
+render_site($status);
+
+function dealWithPost()
+{
+	if (isset($_POST['action'])&& $_POST['action']==="sendmail" ) {
+		if (mailCheck()) {
+			$sent = sendmail($_POST['nom'],$_POST['email'],$_POST['msg']);
+			if ($sent) {
+				$status['success'] = true;
+				$status['message'] = "Mail envoyé avec succès!";
+			} else {
+				$status['success'] = false;
+				$status['message'] = "Oops, y'a un problème inconnu pour envoyer ce mail";
+			}
+		} else {
+			$status['success'] = false;
+			$status['message'] = "<strong>Oops,</strong> il faut corriger quelque chose";
+		}
+		return $status;
+	}
+}
+
+function mailCheck()
+{
+	if (!empty($_POST['msg'])&&!empty($_POST['email'])&&!empty($_POST['nom'])) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+
+
+function sendmail($name,$email,$msg)
+{
+	$headers = 'From: mailer@my.cv' . "\r\n" .
+	'Reply-To: '.$email . "\r\n" .
+	'X-Mailer: PHP/' . phpversion();
+
+	return mail("aldebaran.desombergh@gmail.com", $name. " Sent you a Mail From CV-Site", $msg, $headers);
+}
+
+
+function render_site($status)
+{
+	include_once('page.php');
+};
+
+
+function dd($var)
+{
+	dump($var);
+	die();
+};
+
+function dump($var)
+{
+	echo "<pre>";
+	var_dump($var);
+	echo "</pre>";
+};
+ ?>
