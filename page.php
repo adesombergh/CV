@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php 
+function page_renderer($status){
+?><!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
@@ -40,3 +42,6 @@
 		<script type="text/javascript" src="assets/js/main.js"></script>
 	</body>
 </html>
+<?php 
+}
+?>
