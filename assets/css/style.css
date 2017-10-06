@@ -111,10 +111,30 @@ a:hover {
 
 /***********************************************************************************************************/
 /* SECTION 3 */
-#formation{
-	background-color: #153d52;
+#formation .pola1 {
+	background: #33658a;
+	background: -moz-linear-gradient(left, #33658a 0%, #86bbd8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #33658a 0%,#86bbd8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #33658a 0%,#86bbd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-
+#formation .pola2 {
+	background: #33658a;
+	background: -moz-linear-gradient(left,#86bbd8 0%, #468189 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,#86bbd8 0%,#468189 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,#86bbd8 0%,#468189 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#formation .pola3 {
+	background: #33658a;
+	background: -moz-linear-gradient(left, #468189 0%, #89623B 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #468189 0%,#89623B 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #468189 0%,#89623B 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#formation .pola4 {
+	background: #33658a;
+	background: -moz-linear-gradient(left, #89623B 0%, #CC7E2A 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #89623B 0%,#CC7E2A 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #89623B 0%,#CC7E2A 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
 .center-table {
   display: table;
   height: 300px;
@@ -189,6 +209,7 @@ a:hover {
 /* SECTION 6 */
 #skills {
 	background-color: #d1675a;
+	color: #fff;
 }
 #skills .spacer{
 	height:180px;
@@ -207,6 +228,18 @@ a:hover {
 		font-weight:400;
 		font-size: 25px;
 		padding: 20px 0;
+	}
+
+	#skills .square {
+		padding-top: 15px;
+		display: block;
+		width: 150px;
+		height: 150px;
+		margin: 0 auto;
+	}
+
+	#skills h3 {
+		font-size: 30px;
 	}
 
 

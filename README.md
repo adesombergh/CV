@@ -8,15 +8,18 @@ Email: aldebaran.desombergh@gmail.com
 ## Career Objective
 Economics graduate with excellent project management, communication and analytical skills and a wide range of client facing experience, seeking a position in investment banking, with a focus on mergers and acquisitions.
 
-## Education
+## Formation
 Period | Where | What
 ------------ | -------------|---------------
 2011 – Present | University of Leicester |Economics BSc (expected 2:1)
 2009 – 2011 |  Farr Manor School, Leeds |A Level: History A, Maths A, Politics A,AS Level: Spanish B
 2002 – 2009 |  Farr Manor School, Leeds |10 GCSEs, all grades A (including Maths and English)
+Quand |	Où | Quoi
+2017-2018 | BeCode | Web Developper
+2009-2012 | ESA "Le 75" | Baccalauréat artistique en Photographie
+2005 | Lycée Pasteur | Bac Scientifique
 
-
-## Work Experience
+## Experience 
 #### June – July 2012 Analyst Intern, Barclays
 * Ownership of financial modelling project; presented strategy to management board; recommendations were implemented as a result.
 * Researched and prepared slides for client pitches; contributed ideas to senior level meetings.
@@ -31,12 +34,12 @@ fundraising opportunities to increase growth and impact of the third sector orga
 
 
 ## Extra-Curricular Activities
-* Elected president of Amnesty International 2012 – 2013, providing leadership for awareness campaigns. Treasurer 2013, developing account management skills.
+* Escalade Indoor.
 * Active member of Traders and Investors Society; developing global financial perspective.
 
 
 ## Skills and Interests
-Languages: French (intermediate) and Spanish (Basic).
+Languages: English French (intermediate) and Spanish (Basic).
 
 Computer skills: Advanced Microsoft Office user; Word, Access and Excel.
 

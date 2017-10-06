@@ -1,23 +1,45 @@
 <div class="section" id="skills" data-anchor="section1">
-	<div class="visible-xs-block" style="height:75px;"></div>
 	<div class="container">
-		<p>En tant qu’inventeur débutant autodidacte voici mes outils préférés:</p>
 		<div class="row">
-			<div class="col-sm-3"><p class="list">Html5 / Css3</p></div>
-			<div class="col-sm-3"><p class="list">JS / Jquery</p></div>
-			<div class="col-sm-3"><p class="list">Php</p></div>
-			<div class="col-sm-3"><p class="list">Bootstrap</p></div>
+			<div class="col-sm-4">
+				<h3>HTML5</h3>
+				<div class="square">
+					<canvas id="htmlpie" width="150" height="150"></canvas>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<h3>CSS3</h3>
+				<div class="square">
+					<canvas id="csspie" width="150" height="150"></canvas>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<h3>JavaScript</h3>
+				<div class="square">
+					<canvas id="jspie" width="150" height="150"></canvas>
+				</div>
+			</div>
 		</div>
-
-		<div class="spacer hidden-xs">&nbsp;</div><div class="visible-xs-block" style="height:75px;"></div>
-
-		<p>Et ce que je découvre en ce moment:</p>
-
+		<div class="row"><div style="height: 60px">&nbsp;</div></div>
 		<div class="row">
-			<div class="col-sm-4"><p class="list">Laravel 5.4</p></div>
-			<div class="col-sm-4"><p class="list">Git</p></div>
-			<div class="col-sm-4"><p class="list">AnchorJS</p></div>
+			<div class="col-sm-4">
+				<h3>PHP</h3>
+				<div class="square">
+					<canvas id="phppie" width="150" height="150"></canvas>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<h3>Git</h3>
+				<div class="square">
+					<canvas id="gitpie" width="150" height="150"></canvas>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<h3>Laravel</h3>
+				<div class="square">
+					<canvas id="laravelpie" width="150" height="150"></canvas>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class="visible-xs-block" style="height:75px;"></div>
 </div>	
