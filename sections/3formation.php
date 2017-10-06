@@ -1,43 +1,32 @@
 <div class="section" id="formation" data-anchor="section1">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6 center-table">
-				<div class="middle">
-					<h1><span class="glyphicon glyphicon-book"></span></h1>
-					<h3>Formation(s)</h3>
-				</div>
-			</div>
-			<div class="col-sm-6 center-table">
-				<div class="tablepaps">
-					<table class="table">
-						<thead>
-							<tr>
-								<th>Quand</th>
-								<th>Où</th>
-								<th>Quoi</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>2017-2018</td>
-								<td>BeCode</td>
-								<td>Web Developper</td>
-							</tr>
-							<tr>
-								<td>2009-2012</td>
-								<td>ESA "Le 75"</td>
-								<td>Baccalauréat artistique en Photographie</td>
-							</tr>
-							<tr>
-								<td>2005</td>
-								<td>Lycée Pasteur</td>
-								<td>Bac Scientifique</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-
-			</div>
+	<div class="slide pola1" data-anchor="slide1">
+		<div class="text-center">
+			<h1><span class="glyphicon glyphicon-education"></span></h1>
+			<h3>Formation(s)</h3>
+		</div>
+	</div>
+	<div class="slide pola2" data-anchor="slide2">
+		<div class="text-center">
+			<h1><span class="glyphicon glyphicon-baby-formula"></span></h1>
+			<h2>
+				2005 | Lycée Pasteur | Bac Scientifique
+			</h2>
+		</div>
+	</div>
+	<div class="slide pola3" data-anchor="slide3">
+		<div class="text-center">
+			<h1><span class="glyphicon glyphicon-picture"></span></h1>
+			<h2>
+				2009-2012 | ESA "Le 75" | Bac artistique en Photographie
+			</h2>
+		</div>
+	</div>
+	<div class="slide pola4" data-anchor="slide4">
+		<div class="text-center">
+			<h1><span class="glyphicon glyphicon-chevron-left"></span>/<span class="glyphicon glyphicon-chevron-right"></span></h1>
+			<h2>
+				2017-2018 | BeCode | Web Developper
+			</h2>
 		</div>
 	</div>
 </div>
