@@ -4,17 +4,17 @@ $(document).ready(function(){
         anchors: ['section1', 'section2', 'section3', 'section4', 'section5'],
         menu: '#menu',
 
-        afterLoad: function(anchorLink, index){
-            if (index==4) {
-                pies = charts();
-            }
-        },
+
 
         onLeave: function(index, nextIndex, direction){
             if (index==4) {
                 destroyCharts(pies);
             }
+            if (nextIndex==4) {
+                pies = charts();
+            }
         }
+
 
 
     });

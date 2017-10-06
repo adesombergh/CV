@@ -10,28 +10,28 @@ function charts(){
         legend: {
             display: false
         },
-        tooltips: {
-            enabled: false
-        },
+
         animation: {
             easing: 'easeOutQuad'
         },
-        hover: {
-            mode: false
-        }
     };
 
     var htmlpie = new Chart($("#htmlpie"),{
         "type":"pie",
         data: {
-            labels: ['html'],
+            labels: ['know','learning'],
             datasets: [{
                 data: [99, 1],
                 backgroundColor: [
-                    '#DBE2CF',
+                    '#263B47',
                     '#d1675a'
                 ],
-                borderWidth: 0
+                borderWidth: 0,
+                hoverBackgroundColor: [
+                    "#233641",
+                    "#d1675a"
+                ],
+
             }]
         },
         options: options
@@ -40,14 +40,19 @@ function charts(){
     var csspie = new Chart($("#csspie"),{
         "type":"pie",
         data: {
-            labels: ['css'],
+            labels: ['know','learning'],
             datasets: [{
                 data: [90, 10],
                 backgroundColor: [
-                    '#9FA2B2',
+                    '#2A414F',
                     '#d1675a'
                 ],
-                borderWidth: 0
+                borderWidth: 0,
+                hoverBackgroundColor: [
+                    "#263B47",
+                    "#d1675a"
+                ],
+
             }]
         },
         options: options
@@ -56,14 +61,19 @@ function charts(){
     var jspie = new Chart($("#jspie"),{
         "type":"pie",
         data: {
-            labels: ['js'],
+            labels: ['know','learning'],
             datasets: [{
                 data: [85, 15],
                 backgroundColor: [
-                    '#3C7A89',
+                    '#2E4756',
                     '#d1675a'
                 ],
-                borderWidth: 0
+                borderWidth: 0,
+                hoverBackgroundColor: [
+                    "#2A414F",
+                    "#d1675a"
+                ],
+
             }]
         },
         options: options
@@ -72,14 +82,19 @@ function charts(){
     var phppie = new Chart($("#phppie"),{
         "type":"pie",
         data: {
-            labels: ['php'],
+            labels: ['know','learning'],
             datasets: [{
                 data: [90, 10],
                 backgroundColor: [
-                    '#2E4756',
+                    '#2A414F',
                     '#d1675a'
                 ],
-                borderWidth: 0
+                borderWidth: 0,
+                hoverBackgroundColor: [
+                    "#263B47",
+                    "#d1675a"
+                ],
+
             }]
         },
         options: options
@@ -88,14 +103,19 @@ function charts(){
     var gitpie = new Chart($("#gitpie"),{
         "type":"pie",
         data: {
-            labels: ['git'],
+            labels: ['know','learning'],
             datasets: [{
                 data: [75, 25],
                 backgroundColor: [
-                    '#16262E',
+                    '#2E4756',
                     '#d1675a'
                 ],
-                borderWidth: 0
+                borderWidth: 0,
+                hoverBackgroundColor: [
+                    "#2A414F",
+                    "#d1675a"
+                ],
+
             }]
         },
         options: options
@@ -103,14 +123,18 @@ function charts(){
     var laravelpie = new Chart($("#laravelpie"),{
         "type":"pie",
         data: {
-            labels: ['laravel'],
+            labels: ['know','learning'],
             datasets: [{
                 data: [60, 40],
                 backgroundColor: [
-                    '#16262E',
+                    '#415765',
                     '#d1675a'
                 ],
-                borderWidth: 0
+                borderWidth: 0,
+                hoverBackgroundColor: [
+                    "#2E4756",
+                    "#d1675a"
+                ],
             }]
         },
         options: options
