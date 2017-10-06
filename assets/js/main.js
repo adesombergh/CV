@@ -3,7 +3,22 @@ $(document).ready(function(){
 		scrollingSpeed: 1000,
         anchors: ['section1', 'section2', 'section3', 'section4', 'section5'],
         menu: '#menu',
+
+        afterLoad: function(anchorLink, index){
+            if (index==4) {
+                pies = charts();
+            }
+        },
+
+        onLeave: function(index, nextIndex, direction){
+            if (index==4) {
+                destroyCharts(pies);
+            }
+        }
+
+
     });
+
 
 
     $('#mailform').on('submit',function(e){
@@ -36,4 +51,8 @@ $(document).ready(function(){
 
     	return goodToGO;
     });
+
+
+
+
 });

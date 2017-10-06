@@ -209,6 +209,7 @@ a:hover {
 /* SECTION 6 */
 #skills {
 	background-color: #d1675a;
+	color: #fff;
 }
 #skills .spacer{
 	height:180px;
@@ -227,6 +228,18 @@ a:hover {
 		font-weight:400;
 		font-size: 25px;
 		padding: 20px 0;
+	}
+
+	#skills .square {
+		padding-top: 15px;
+		display: block;
+		width: 150px;
+		height: 150px;
+		margin: 0 auto;
+	}
+
+	#skills h3 {
+		font-size: 30px;
 	}
 
 
