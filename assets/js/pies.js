@@ -21,7 +21,7 @@ function charts(){
         data: {
             labels: ['know','learning'],
             datasets: [{
-                data: [99, 1],
+                data: [90, 10],
                 backgroundColor: [
                     '#263B47',
                     '#d1675a'
@@ -29,27 +29,6 @@ function charts(){
                 borderWidth: 0,
                 hoverBackgroundColor: [
                     "#233641",
-                    "#d1675a"
-                ],
-
-            }]
-        },
-        options: options
-    });
-
-    var csspie = new Chart($("#csspie"),{
-        "type":"pie",
-        data: {
-            labels: ['know','learning'],
-            datasets: [{
-                data: [90, 10],
-                backgroundColor: [
-                    '#2A414F',
-                    '#d1675a'
-                ],
-                borderWidth: 0,
-                hoverBackgroundColor: [
-                    "#263B47",
                     "#d1675a"
                 ],
 
@@ -125,7 +104,7 @@ function charts(){
         data: {
             labels: ['know','learning'],
             datasets: [{
-                data: [60, 40],
+                data: [50, 50],
                 backgroundColor: [
                     '#415765',
                     '#d1675a'
@@ -139,6 +118,27 @@ function charts(){
         },
         options: options
     });
-    var pies = [htmlpie,csspie,jspie,phppie,gitpie,laravelpie];
+
+    var nodepie = new Chart($("#nodepie"),{
+        "type":"pie",
+        data: {
+            labels: ['know','learning'],
+            datasets: [{
+                data: [25, 75],
+                backgroundColor: [
+                    '#415765',
+                    '#d1675a'
+                ],
+                borderWidth: 0,
+                hoverBackgroundColor: [
+                    "#2E4756",
+                    "#d1675a"
+                ],
+            }]
+        },
+        options: options
+    });
+
+    var pies = [htmlpie,jspie,phppie,gitpie,laravelpie,nodepie];
     return pies;
 }

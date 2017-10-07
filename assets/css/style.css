@@ -6,6 +6,7 @@
 .navbar {
 	background-color: transparent; 
 }
+
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
 	color: #fff;
 }
@@ -14,18 +15,27 @@
 	background-color: transparent; 
 	color: #fff;
 	font-weight: 800;
+	border-top: 1px solid #fff;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 .navbar-default .navbar-nav>.active>a:hover {
 	background-color: transparent; 
-	color: #000;
+	color: #666;
 }
 
 .navbar-default {
 	border-bottom: none;
 }
-
-
 
 
 

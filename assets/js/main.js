@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('#sections').fullpage({
 		scrollingSpeed: 1000,
-        anchors: ['section1', 'section2', 'section3', 'section4', 'section5'],
+        anchors: ['section1', 'section2', 'section3', 'section4', 'section5','section6'],
         menu: '#menu',
 
 
@@ -14,8 +14,6 @@ $(document).ready(function(){
                 pies = charts();
             }
         }
-
-
 
     });
 

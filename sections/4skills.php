@@ -2,15 +2,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-4">
-				<h3>HTML5</h3>
+				<h3>HTML / CSS</h3>
 				<div class="square">
 					<canvas id="htmlpie" width="150" height="150"></canvas>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<h3>CSS3</h3>
-				<div class="square">
-					<canvas id="csspie" width="150" height="150"></canvas>
 				</div>
 			</div>
 			<div class="col-sm-4">
@@ -19,15 +13,14 @@
 					<canvas id="jspie" width="150" height="150"></canvas>
 				</div>
 			</div>
-		</div>
-		<div class="row"><div style="height: 60px">&nbsp;</div></div>
-		<div class="row">
 			<div class="col-sm-4">
 				<h3>PHP</h3>
 				<div class="square">
 					<canvas id="phppie" width="150" height="150"></canvas>
 				</div>
-			</div>
+			</div>		</div>
+		<div class="row"><div style="height: 60px">&nbsp;</div></div>
+		<div class="row">
 			<div class="col-sm-4">
 				<h3>Git</h3>
 				<div class="square">
@@ -38,6 +31,12 @@
 				<h3>Laravel</h3>
 				<div class="square">
 					<canvas id="laravelpie" width="150" height="150"></canvas>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<h3>node.js</h3>
+				<div class="square">
+					<canvas id="nodepie" width="150" height="150"></canvas>
 				</div>
 			</div>
 		</div>
