@@ -1,17 +1,33 @@
 $(document).ready(function(){
+    var htmlpie = new Pie("htmlpie",203,22);
+    var jspie = new Pie("jspie",203,22);
+    var phppie = new Pie("phppie",203,22);
+    var gitpie = new Pie("gitpie",203,22);
+    var laravelpie = new Pie("laravelpie",203,22);
+    var nodepie = new Pie("nodepie",203,22);
+    
     $('#sections').fullpage({
 		scrollingSpeed: 1000,
         anchors: ['section1', 'section2', 'section3', 'section4', 'section5','section6'],
         menu: '#menu',
-
-
-
         onLeave: function(index, nextIndex, direction){
-            if (index==4) {
-                destroyCharts(pies);
+            if(index == 4){
+                htmlpie.unFillPie();
+                jspie.unFillPie();
+                phppie.unFillPie();
+                gitpie.unFillPie();
+                laravelpie.unFillPie();
+                nodepie.unFillPie();
             }
-            if (nextIndex==4) {
-                pies = charts();
+        },
+        afterLoad: function(anchorLink, index){
+            if(index == 4){
+                htmlpie.fillPie();
+                jspie.fillPie();
+                phppie.fillPie();
+                gitpie.fillPie();
+                laravelpie.fillPie();
+                nodepie.fillPie();
             }
         }
 

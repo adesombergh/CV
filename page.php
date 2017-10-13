@@ -36,11 +36,11 @@ function page_renderer($status){
 
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+		<script src="assets/js/Pie.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
-		<script type="text/javascript" src="assets/js/pies.js"></script>
+		<!--<script type="text/javascript" src="assets/js/pies.js"></script>-->
 	</body>
 </html>
 <?php 
