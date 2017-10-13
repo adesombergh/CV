@@ -18,7 +18,8 @@
 	        <li data-menuanchor="section2"><a href="#section2">Résumé</a></li>
 	        <li data-menuanchor="section3"><a href="#section3">Formations</a></li>
 	        <li data-menuanchor="section4"><a href="#section4">Skills</a></li>
-	        <li data-menuanchor="section5"><a href="#section5">Contact</a></li>
+	        <li data-menuanchor="section5"><a href="#section5">Hobbies</a></li>
+	        <li data-menuanchor="section6"><a href="#section6">Contact</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 

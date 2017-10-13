@@ -219,6 +219,25 @@ a:hover {
 		background-color: #77B6EA;
 	}
 
+	#contact .withline:before {
+		content: '';
+		display: inline-block;
+		width: 1px;
+		height: 270px;
+		background-color: #fff;
+		float: left;
+	}
+
+	#contact .soc-svg {
+		display: block;
+		width: 50px;
+		height: 50px;
+		margin: 30px;
+		fill: #fff;
+	}
+	#contact .soc-svg:hover {
+		fill: #eee;
+	}
 
 
 /***********************************************************************************************************/
@@ -264,23 +283,23 @@ a:hover {
 
 /***********************************************************************************************************/
 /* SECTION 8 */
-#loula{
+#hobbies{
 	background-color: #398eb2;
 }
 
 
-#loula h2{
+#hobbies h2{
 	color: #153d52;
 	font-weight: 300;
 }
 
-#loula .center-block{
+#hobbies .center-block{
 	width:340px;
 	height:340px;
 	position: relative;
 }
 
-#loula img{
+#hobbies img{
 	width: 240px;
 	height: 240px;
     -webkit-transition: width 1s, height 1s; /* Safari */
@@ -293,7 +312,7 @@ a:hover {
 }
 
 
-#loula img:hover{
+#hobbies img:hover{
 	width: 340px;
 	height: 340px;
 
@@ -357,10 +376,26 @@ a:hover {
 
 
 
+#final{
+	background-color: #ffbf6b;
+	height: 3000px;
+}
+#final p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	font-size: 25px;
+	padding: 20px 0;
+}
 
 
-
-
+.coffee {
+	width: 150px;
+	height: 150px;
+	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1,Color='#666')";
+	-webkit-filter:drop-shadow(1px 1px 1px rgba(0, 0, 0, .2));
+	filter:drop-shadow(1px 1px 1px rgba(0, 0, 0, .2));
+}
 
 
 
