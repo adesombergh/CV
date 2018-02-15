@@ -1,51 +1,53 @@
 # Aldebaran Desombergh
 
-Tel: +32 489 45 09 02
+I’m a curious and autonomous web-developper who loves simple yet intuitive apps
 
-Email: aldebaran.desombergh@gmail.com
+[https://www.desombergh.be](https://www.desombergh.be)
+
+Email: [aldebaran.desombergh@gmail.com](mailto:aldebaran.desombergh@gmail.com)
 
 
-## Career Objective
-Economics graduate with excellent project management, communication and analytical skills and a wide range of client facing experience, seeking a position in investment banking, with a focus on mergers and acquisitions.
+## Professional Experience / Projects / Realization
 
-## Formation
 Period | Where | What
 ------------ | -------------|---------------
-2011 – Present | University of Leicester |Economics BSc (expected 2:1)
-2009 – 2011 |  Farr Manor School, Leeds |A Level: History A, Maths A, Politics A,AS Level: Spanish B
-2002 – 2009 |  Farr Manor School, Leeds |10 GCSEs, all grades A (including Maths and English)
-Quand |	Où | Quoi
-2017-2018 | BeCode | Web Developper
-2009-2012 | ESA "Le 75" | Baccalauréat artistique en Photographie
-2005 | Lycée Pasteur | Bac Scientifique
+2018 - present  | FaqBot | ???
+2018  | BeCode |Development of a 3D modeling web application used to build furniture and/or spaces using a wood module. Techs: JavaScript, Angular, Ionic.
+2016 - 2018 |  Free-lance | Development of a (SaaS) bar management app to calculate salaries and tally the cash registers. Techs: Laravel, Vue.JS, Bulma.
+2016 - 2018 |  Free-lance | Development of some open-source front-end snippets such as Camembert.js.
+2011 - 2017 |	Café Maison du Peuple | Manager and bartender.
+2008 - 2016 | Free-lance | Self-produced photography exhibitions with an artist collective. Video shooting, video editing and video post-production.
+2011 | Free-lance | Creation of a blog in all it’s aspects (front, back, content) to review a 14 months South-America tour in a VW Combi.
 
-## Experience 
-#### June – July 2012 Analyst Intern, Barclays
-* Ownership of financial modelling project; presented strategy to management board; recommendations were implemented as a result.
-* Researched and prepared slides for client pitches; contributed ideas to senior level meetings.
-* Developed excellent commercial awareness through client management and participation in
-intensive training programme.
-#### January-March 2012 Social Enterprise Volunteer, GoGreen Centre
-* Developed annual business strategy with specific focus on budget allocation and identified
-fundraising opportunities to increase growth and impact of the third sector organisation.
-* Re- modelled the company blog and increased readership by 25% in two months.
-#### May 2009 – March 2011 Customer Assistant, Tesco
-* Stock level management, product location, serving on the tills, and customer service.
+## Formal Education / Training 
+#### Web Development Bootcamp @ BeCode. 2017
+#### Photography Bachelor @ l’ESA « Le 75 ». 2011
+
+## Technical Expertise 
+#### Programming Languages
+PHP, JavaScript (ES6), TypeScript, Bash, SQL, Html5/Css3.
+#### Frameworks
+Laravel, NodeJS, React, Vue.JS, Angular, Ionic, Bootstrap, Bulma.
+#### Database
+MySQL, SQL SERVER, PostgreSQL, MongoDB
+#### Operating Systems
+MacOS, Linux, Ubuntu, iOS
+#### Development Tools
+Git, GitHub, Regular Expressions, WebPack, Gulp, PHPUnit
+#### IDEs
+Sublime Text, Visual Studio Code
+#### Programming Patterns and Paradigms 
+Object-Oriented, TDD
+#### Virtualisation
+VirtualBox
+#### Server
+Apache, Nginx, Heroku, OVH, NodeJS, FTP, SSH, SSL
 
 
-## Extra-Curricular Activities
-* Escalade Indoor.
-* Active member of Traders and Investors Society; developing global financial perspective.
+
+## Hobbies
+Coding, Travelling, Music, Climbing, Cooking, IPAs.
 
 
-## Skills and Interests
-Languages: English French (intermediate) and Spanish (Basic).
-
-Computer skills: Advanced Microsoft Office user; Word, Access and Excel.
-
-Awards: Enterprising Student of the Year Award for WISE (working in social enterprise).
-
-Interests: Volunteered on conservation project and travelled for 3 months in South East Asia; keen rower and skier.
-
-References available on request
+*References available on request*
    

@@ -1,3 +1,6 @@
+{
+  "theme_color": "#317EFB"
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -87,7 +90,7 @@ a:hover {
 
 
 /***********************************************************************************************************/
-/* SECTION 1 */
+/* INTRODUCTION */
 #intro {
     background-color: #d1675a;
 }
@@ -104,7 +107,7 @@ a:hover {
 
 
 /***********************************************************************************************************/
-/* SECTION 2 */
+/* RESUME */
 	#resume {
 		background-color: #398eb2;
 	}
@@ -126,7 +129,7 @@ a:hover {
 
 
 /***********************************************************************************************************/
-/* SECTION 3 */
+/* FORMATION */
 #formation .pola1 {
 	background: #33658a;
 	background: -moz-linear-gradient(left, #33658a 0%, #86bbd8 100%); /* FF3.6-15 */
@@ -181,25 +184,92 @@ a:hover {
 
 
 /***********************************************************************************************************/
-/* SECTION 4 */
-#section4{
-	background-color: #ffbf6b;
-	height: 3000px;
+/* SKILLS */
+#skills {
+	background-color: #d1675a;
+	color: #fff;
 }
-#section4 p {
+#skills .spacer{
+	height:180px;
+}
+#skills p {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
-	font-weight:700;
+	font-weight:300;
 	font-size: 25px;
 	padding: 20px 0;
 }
 
+	#skills p.list{
+		color: #fff;
+		font-family: 'Bungee', sans-serif;
+		font-weight:400;
+		font-size: 25px;
+		padding: 20px 0;
+	}
 
+	#skills .square {
+		padding-top: 15px;
+		display: block;
+		width: 150px;
+		height: 150px;
+		margin: 0 auto;
+	}
+
+	#skills h3 {
+		font-size: 30px;
+	}
 
 
 
 /***********************************************************************************************************/
-/* SECTION 5 */
+/* PORTFOLIO */
+#portfolio {
+	background-color: #153d52;
+	color: #666;
+}
+
+
+
+/***********************************************************************************************************/
+/* HOBBIE */
+#hobbies{
+	background-color: #398eb2;
+}
+
+
+#hobbies h2{
+	color: #153d52;
+	font-weight: 300;
+}
+
+#hobbies .center-block{
+	width:340px;
+	height:340px;
+	position: relative;
+}
+
+#hobbies img{
+	width: 240px;
+	height: 240px;
+    -webkit-transition: width 1s, height 1s; /* Safari */
+    transition: width 1s, height 1s;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 1px solid #000;
+}
+
+
+#hobbies img:hover{
+	width: 340px;
+	height: 340px;
+
+}
+
+/***********************************************************************************************************/
+/* CONTACT */
 
 #contact{
 	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
@@ -240,146 +310,16 @@ a:hover {
 	}
 
 
-/***********************************************************************************************************/
-/* SECTION 6 */
-#skills {
-	background-color: #d1675a;
-	color: #fff;
-}
-#skills .spacer{
-	height:180px;
-}
-#skills p {
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:300;
-	font-size: 25px;
-	padding: 20px 0;
-}
-
-	#skills p.list{
-		color: #fff;
-		font-family: 'Bungee', sans-serif;
-		font-weight:400;
-		font-size: 25px;
-		padding: 20px 0;
-	}
-
-	#skills .square {
-		padding-top: 15px;
-		display: block;
-		width: 150px;
-		height: 150px;
-		margin: 0 auto;
-	}
-
-	#skills h3 {
-		font-size: 30px;
-	}
-
-
-
 
 
 /***********************************************************************************************************/
-/* SECTION 8 */
-#hobbies{
-	background-color: #398eb2;
-}
-
-
-#hobbies h2{
-	color: #153d52;
-	font-weight: 300;
-}
-
-#hobbies .center-block{
-	width:340px;
-	height:340px;
-	position: relative;
-}
-
-#hobbies img{
-	width: 240px;
-	height: 240px;
-    -webkit-transition: width 1s, height 1s; /* Safari */
-    transition: width 1s, height 1s;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	box-shadow: 1px solid #000;
-}
-
-
-#hobbies img:hover{
-	width: 340px;
-	height: 340px;
-
-}
-
-
-/***********************************************************************************************************/
-/* SECTION 9 */
-#section9{
-	background-color: #153d52;
-
-	background: -webkit-gradient(linear, top left, bottom left, from(#e7e9bb), to(#949283));
-	background: -webkit-linear-gradient(#e7e9bb, #949283);
-	background: linear-gradient(#e7e9bb,#949283);
-}
-
-
-/***********************************************************************************************************/
-/* SECTION 10 */
-#section10{
-	background-color: #153d52;
-
-	background: -webkit-gradient(linear, top left, bottom left, from(#949283), to(#403b4a));
-	background: -webkit-linear-gradient(#949283, #403b4a);
-	background: linear-gradient(#949283,#403b4a);
-
-}
-
-	#section10 h1{
-		font-family: "Open Sans";
-		font-weight: 400;
-		font-style: italic;
-		font-size: 4vw;
-
-		padding-left: 9vw;
-		position: relative;
-		text-align: left;
-	}
-
-
-	#section10 h1:before{
-		font-family: "Bungee";
-		font-weight: 400;
-		font-size: 10vw;
-
-		display: block;
-	    content: "\201C";
-	    position: absolute;
-	    left: -1vw;
-	    top: -1vw;
-	}
-
-	#section10 h2{
-		font-family: "Montserrat";
-		font-weight: 200;
-		font-size: 3vw;
-		text-align: right;
-		padding-top: 7vw;
-	}
-
-
-
-
+/* FINAL */
 #final{
 	background-color: #ffbf6b;
 	height: 3000px;
+	padding: 50px 0;
 }
+
 #final p {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
@@ -388,14 +328,12 @@ a:hover {
 	padding: 20px 0;
 }
 
-
 .coffee {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1,Color='#666')";
 	-webkit-filter:drop-shadow(1px 1px 1px rgba(0, 0, 0, .2));
 	filter:drop-shadow(1px 1px 1px rgba(0, 0, 0, .2));
 }
-
 
 

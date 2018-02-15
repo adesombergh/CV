@@ -6,6 +6,7 @@ function page_renderer($status){
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#317EFB"/>
 		<title>Desombergh.be</title>
 		<link rel="icon" href="assets/images/favicon.ico">
 		<!-- Bootstrap CSS -->
@@ -30,20 +31,20 @@ function page_renderer($status){
 				<?php include_once('sections/2resume.php'); ?>
 				<?php include_once('sections/3formation.php'); ?>
 				<?php include_once('sections/4skills.php'); ?>
-				<?php include_once('sections/5hobbies.php'); ?>
-				<?php include_once('sections/6contact.php'); ?>
-				<?php include_once('sections/7final.php'); ?>
+				<?php include_once('sections/5portfolio.php'); ?>
+				<?php include_once('sections/6hobbies.php'); ?>
+				<?php include_once('sections/7contact.php'); ?>
+				<?php include_once('sections/8final.php'); ?>
 			</div>
 		</div>
 
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		<script src="assets/js/Pie.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="assets/js/Pie.js"></script>
+		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
-		<!--<script type="text/javascript" src="assets/js/pies.js"></script>-->
 	</body>
 </html>
 <?php 

@@ -1,4 +1,4 @@
-<div class="section" id="formation" data-anchor="section1">
+<div class="section" id="formation" data-anchor="section3">
 	<div class="slide pola1" data-anchor="slide1">
 		<div class="text-center">
 			<h1><span class="glyphicon glyphicon-education"></span></h1>

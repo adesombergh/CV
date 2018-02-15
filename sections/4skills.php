@@ -1,4 +1,4 @@
-<div class="section" id="skills" data-anchor="section1">
+<div class="section" id="skills" data-anchor="section4">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-4">

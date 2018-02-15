@@ -1,4 +1,15 @@
 $(document).ready(function(){
+
+    $(window).scroll(function(){
+        console.log( $(window).scrollTop() );
+    });
+
+    setInterval(
+        function(){
+            $('.blink').toggle();
+        }
+    ,1000);
+
     var htmlpie = new Pie("htmlpie",203,22);
     var jspie = new Pie("jspie",203,22);
     var phppie = new Pie("phppie",203,22);
