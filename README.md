@@ -27,7 +27,7 @@ Period | Where | What
 #### Programming Languages
 PHP, JavaScript (ES6), TypeScript, Bash, SQL, Html5/Css3.
 #### Frameworks
-Laravel, NodeJS, React, Vue.JS, Angular, Ionic, Bootstrap, Bulma.
+CodeIgniter, Laravel, NodeJS, React, Vue.JS, Angular, Ionic, Bootstrap, Bulma.
 #### Database
 MySQL, SQL SERVER, PostgreSQL, MongoDB
 #### Operating Systems
