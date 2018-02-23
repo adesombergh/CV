@@ -11,7 +11,7 @@ Email: [aldebaran.desombergh@gmail.com](mailto:aldebaran.desombergh@gmail.com)
 
 Period | Where | What
 ------------ | -------------|---------------
-2018 - present  | FaqBot | ???
+2018 - present  | FaqBot | Back-End Development
 2018  | BeCode |Development of a 3D modeling web application used to build furniture and/or spaces using a wood module. Techs: JavaScript, Angular, Ionic.
 2016 - 2018 |  Free-lance | Development of a (SaaS) bar management app to calculate salaries and tally the cash registers. Techs: Laravel, Vue.JS, Bulma.
 2016 - 2018 |  Free-lance | Development of some open-source front-end snippets such as Camembert.js.
