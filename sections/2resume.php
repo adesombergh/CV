@@ -2,18 +2,16 @@
 	<div class="container">
 		<div class="col-sm-10 col-sm-offset-1">
 			<h2>
-				Curriculum Vitae Numericum!
+			Bienvenue! Ceci est mon CV en ligne et portfolio.
 			</h2>
-			<p>
-				Si vous cherchez un <strong>WebDevelopper</strong> c'est votre jour de chance!<br>
-				Et le mien aussi puisque je cherche quelqu'un qui cherche un WebDevelopper.
-			</p>
-		</div>
-		<div class="col-sm-6 col-sm-offset-3">
 
-			<blockquote>
-				Armée d'une curiosité indécente, Aldebaran a appris en auto-didacte à créer des sites web et petites applications mignonnes avec des technologies variées. <footer>Dixit <cite title="Source Title">lui-même</cite></footer>
-			</blockquote>
+			<p>
+				A mes yeux il ne suffit pas qu'une application fonctionne, qu'un site web tourne.
+				<br>Il faut en plus qu'il y ait du <strong>plaisir</strong> à chaque instant de son utilisation.				
+			</p>
+			<p class="lead">
+				J'aime construire des belles choses et apporter ma part de poésie au code!
+			</p>
 		</div>
 	</div>
 </div>

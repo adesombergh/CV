@@ -11,10 +11,10 @@ Email: [aldebaran.desombergh@gmail.com](mailto:aldebaran.desombergh@gmail.com)
 
 Period | Where | What
 ------------ | -------------|---------------
-2018 - present  | FaqBot | Back-End Development
-2018  | BeCode |Development of a 3D modeling web application used to build furniture and/or spaces using a wood module. Techs: JavaScript, Angular, Ionic.
-2016 - 2018 |  Free-lance | Development of a (SaaS) bar management app to calculate salaries and tally the cash registers. Techs: Laravel, Vue.JS, Bulma.
-2016 - 2018 |  Free-lance | Development of some open-source front-end snippets such as Camembert.js.
+2018 - present  | PridEmotion | Development of dedicated chat and video-chat application to connect psychologists and patients. Techs: JavaScript, Meteor, NodeJS, MongoDB, Ubuntu.
+2017 - 2018  | BeCode | Development of a 3D modeling web application used to build furniture and/or spaces using a wood module. Techs: JavaScript, Angular, Ionic.
+2016 - 2018 |  Free-lance | Development of a (SaaS) bar management app to calculate salaries and tally the cash registers. Techs: PHP, WordPress, JavaScript, SQL.
+2016 - 2018 |  Free-lance | Design and development of websites using several tools such as WordPress. tamaris-tamaya.be, almupano.be, 10emearte.be, olivenoire.co, desombergh.be
 2011 - 2017 |	Café Maison du Peuple | Manager and bartender.
 2008 - 2016 | Free-lance | Self-produced photography exhibitions with an artist collective. Video shooting, video editing and video post-production.
 2011 | Free-lance | Creation of a blog in all it’s aspects (front, back, content) to review a 14 months South-America tour in a VW Combi.
@@ -25,29 +25,28 @@ Period | Where | What
 
 ## Technical Expertise 
 #### Programming Languages
-PHP, JavaScript (ES6), TypeScript, Bash, SQL, Html5/Css3.
+PHP, JavaScript (ES6), Html5/Css3, TypeScript, Bash, SQL, SASS
 #### Frameworks
-CodeIgniter, Laravel, NodeJS, React, Vue.JS, Angular, Ionic, Bootstrap, Bulma.
+Laravel, NodeJS, Meteor, Vue.JS, Angular, Ionic, Bootstrap, Bulma, CodeIgniter
 #### Database
-MySQL, SQL SERVER, PostgreSQL, MongoDB
+MySQL, MongoDB
 #### Operating Systems
-MacOS, Linux, Ubuntu, iOS
+MacOS, Linux, Ubuntu
 #### Development Tools
-Git, GitHub, Regular Expressions, WebPack, Gulp, PHPUnit
+Git, Composer, WebPack, NPM, SequelPro, Postman
 #### IDEs
-Sublime Text, Visual Studio Code
+Visual Studio Code, Sublime Text
 #### Programming Patterns and Paradigms 
-Object-Oriented, TDD
+Object-Oriented, TDD, Regular Expressions
 #### Virtualisation
 VirtualBox
 #### Server
-Apache, Nginx, Heroku, OVH, NodeJS, FTP, SSH, SSL
+Apache, Nginx, Heroku, OVH, PM2, SSL, etc...
 
 
 
 ## Hobbies
-Coding, Travelling, Music, Climbing, Cooking, IPAs.
+Travelling, Music, Climbing, Cooking, IPAs.
 
 
 *References available on request*
-   

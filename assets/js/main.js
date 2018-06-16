@@ -13,7 +13,7 @@ $(document).ready(function(){
     var htmlpie = new Pie("htmlpie",203,22);
     var jspie = new Pie("jspie",203,22);
     var phppie = new Pie("phppie",203,22);
-    var gitpie = new Pie("gitpie",203,22);
+    var vuepie = new Pie("vuepie",203,22);
     var laravelpie = new Pie("laravelpie",203,22);
     var nodepie = new Pie("nodepie",203,22);
     
@@ -26,7 +26,7 @@ $(document).ready(function(){
                 htmlpie.unFillPie();
                 jspie.unFillPie();
                 phppie.unFillPie();
-                gitpie.unFillPie();
+                vuepie.unFillPie();
                 laravelpie.unFillPie();
                 nodepie.unFillPie();
             }
@@ -36,7 +36,7 @@ $(document).ready(function(){
                 htmlpie.fillPie();
                 jspie.fillPie();
                 phppie.fillPie();
-                gitpie.fillPie();
+                vuepie.fillPie();
                 laravelpie.fillPie();
                 nodepie.fillPie();
             }
