@@ -1,21 +1,13 @@
 $(document).ready(function(){
 
-    $(window).scroll(function(){
-        console.log( $(window).scrollTop() );
-    });
-
-    setInterval(
-        function(){
-            $('.blink').toggle();
-        }
-    ,1000);
-
     var htmlpie = new Pie("htmlpie",203,22);
     var jspie = new Pie("jspie",203,22);
     var phppie = new Pie("phppie",203,22);
     var vuepie = new Pie("vuepie",203,22);
     var laravelpie = new Pie("laravelpie",203,22);
     var nodepie = new Pie("nodepie",203,22);
+    var pipopie = new Pie("pipopie",203,22);
+    var learnpie = new Pie("learnpie",116,22);
     
     $('#sections').fullpage({
 		scrollingSpeed: 1000,
@@ -29,6 +21,8 @@ $(document).ready(function(){
                 vuepie.unFillPie();
                 laravelpie.unFillPie();
                 nodepie.unFillPie();
+                pipopie.unFillPie();
+                learnpie.unFillPie();
             }
         },
         afterLoad: function(anchorLink, index){
@@ -39,6 +33,8 @@ $(document).ready(function(){
                 vuepie.fillPie();
                 laravelpie.fillPie();
                 nodepie.fillPie();
+                pipopie.fillPie();
+                learnpie.fillPie();
             }
         }
 
@@ -76,8 +72,6 @@ $(document).ready(function(){
 
     	return goodToGO;
     });
-
-
 
 
 });

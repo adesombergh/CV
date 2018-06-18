@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 .navbar {
@@ -31,7 +32,7 @@
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
 	background-color: transparent; 
 	color: #fff;
-	text-shadow: 0px 0px 15px rgba(0,0,0,.5);
+	text-shadow: 0px 0px 15px rgba(0,0,0,.2);
 }
 
 .navbar-default {
@@ -124,6 +125,13 @@ a:hover {
 		padding-bottom: 100px;
 	}
 
+	@media only screen and (max-width : 768px) {
+		#resume p {
+			text-align: left;
+			font-size: 16px;
+			padding-bottom: 25px;
+		}
+	}
 
 
 /***********************************************************************************************************/
@@ -179,7 +187,17 @@ a:hover {
 	border-radius: 10px;
 	box-shadow: 2px 2px #000;
 }
-
+@media only screen and (max-width : 768px) {
+	#formation h3 {
+		font-size: 20px;
+	}
+	#formation h1 {
+		font-size: 40px;
+	}
+	#formation h2 {
+		font-size: 16px;
+	}
+}
 
 /***********************************************************************************************************/
 /* SKILLS */
@@ -207,18 +225,27 @@ a:hover {
 	}
 
 	#skills .square {
-		padding-top: 15px;
 		display: block;
-		width: 150px;
-		height: 150px;
+		width: 75%;
+		max-width: 200px;
 		margin: 0 auto;
+		padding: 15px;
 	}
 
 	#skills h3 {
 		font-size: 30px;
 	}
 
-
+	@media only screen and (max-width : 768px) {
+		#skills .square {
+			width: 90%;
+			padding: 0;
+		}
+	
+		#skills h3 {
+			font-size: 16px;
+		}
+	}
 
 /***********************************************************************************************************/
 /* PORTFOLIO */
@@ -227,6 +254,14 @@ a:hover {
 	color: #666;
 }
 
+@media only screen and (max-width : 768px) {
+	#portfolio h1 {
+		font-size: 40px;
+	}
+	#portfolio p {
+		font-size: 20px;
+	}
+}
 
 
 /***********************************************************************************************************/
@@ -266,6 +301,23 @@ a:hover {
 
 }
 
+@media only screen and (max-width : 768px) {
+	#hobbies h2 {
+		font-size: 20px;
+	}
+	#hobbies .center-block{
+		width:100px;
+		height:100px;
+	}
+	#hobbies img{
+		width: 90px;
+		height: 90px;
+	}
+	#hobbies img:hover{
+		width: 100px;
+		height: 100px;
+	}
+}
 /***********************************************************************************************************/
 /* CONTACT */
 
@@ -308,7 +360,20 @@ a:hover {
 	}
 
 
-
+	@media only screen and (max-width : 768px) {
+		#contact .withline:before {
+			content: '';
+			display: none;
+			width: 1px;
+			clear: both;
+		}
+		#contact .soc-svg {
+			display: inline-block;
+			margin: 0;
+			width: 32%;
+			height: 20px;
+		}	
+	}
 
 /***********************************************************************************************************/
 /* FINAL */
@@ -327,11 +392,30 @@ a:hover {
 }
 
 .coffee {
-	width: 100px;
-	height: 100px;
+	width: 70px;
+	height: 70px;
 	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1,Color='#666')";
 	-webkit-filter:drop-shadow(1px 1px 1px rgba(0, 0, 0, .2));
 	filter:drop-shadow(1px 1px 1px rgba(0, 0, 0, .2));
 }
 
 
+
+@media only screen and (max-width : 768px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: none;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-header  {
+		background-color: rgba(0, 0, 0, .6);
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: transparent;
+	}
+	.navbar-toggle {
+		color: #fff;
+	}
+	.navbar-brand {
+		padding: 0;
+		padding-left: 15px;
+	}
+}

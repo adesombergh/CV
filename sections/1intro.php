@@ -6,9 +6,7 @@
 				<h2 >je m'appelle <a href="https://fr.wikipedia.org/wiki/Aldebaran_(Saint_Seiya)">Aldebaran</a></h2>
 				<p>&nbsp;</p>
 				<p class="lead">
-					Je suis un artisan du web
-				<br>
-				 autrement dit un 
+					Je suis  
 				 <strong>Web Developper.</strong>
 				<br>
 					Basé sur Bruxelles.

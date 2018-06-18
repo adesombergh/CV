@@ -1,15 +1,17 @@
 function Pie(id, hue, saturation) {
 	var _this = this;
+	
+	var it = document.getElementById(id);
+	it.width = $('#'+id).parent().width();
+	it.height = $('#'+id).parent().width();
 
     this.ctx =  document.getElementById(id).getContext('2d');
     this.pourcent = $('#'+id).data( "known" );
     this.angle = this.pourcent * 360 / 100;
     this.animDuration = 1;
-    this.color = 'hsl('+hue+','+saturation+'%,'+this.pourcent/2+'%)';
-    this.decalage = $('#'+id).width()/25;
-	this.centerX = ($('#'+id).width()-this.decalage)/2;
-	this.centerY = ($('#'+id).height()-this.decalage)/2;
-	this.radius = $('#'+id).width()/2.2-this.decalage;
+	this.color = 'hsl('+hue+','+saturation+'%,'+this.pourcent/2+'%)';
+	this.decalage = it.width/25;
+	this.radius = it.width/2.2-this.decalage;
 	this.depart = -90;
 	this.filled = false;
 
@@ -45,6 +47,10 @@ function Pie(id, hue, saturation) {
 		},25);
     };
     this.drawPie = function (angle,color) {
+		
+		this.centerX = (it.width-this.decalage)/2;
+		this.centerY = (it.width-this.decalage)/2;
+		
 		angle -= 90; //Car le début du camembert c'est à midi!
 		this.ctx.clearRect(0,0,300,300);
 
@@ -98,14 +104,14 @@ function Pie(id, hue, saturation) {
 			}
 		}
 	});
+
 	this.growth = 0;
 	this.grow = function () {
   		var frameNb = 10;
 		_this.projecteur3 = setInterval(function(){
 			_this.growth++;
 			var angle = _this.angle;
-			var w = $('#'+id).width();
-			_this.radius = w/(2.2 - _this.easeOut(_this.growth/frameNb)*.2)-_this.decalage;
+			_this.radius = $('#'+id).parent().width()/(2.2 - _this.easeOut(_this.growth/frameNb)*.2)-_this.decalage;
 			var color = 'hsl('+hue+','+saturation+'%,'+(_this.pourcent/2+_this.growth)+'%)';
 			_this.drawPie(angle,color);
 			if (_this.growth == frameNb) {
@@ -119,8 +125,7 @@ function Pie(id, hue, saturation) {
 		_this.projecteur4 = setInterval(function(){
 			_this.growth--;
 			var angle = _this.angle;
-			var w = $('#'+id).width();
-			_this.radius = w/(2.2 - _this.easeOut(_this.growth/frameNb)*.2)-_this.decalage;
+			_this.radius = $('#'+id).parent().width()/(2.2 - _this.easeOut(_this.growth/frameNb)*.2)-_this.decalage;
 			var color = 'hsl('+hue+','+saturation+'%,'+(_this.pourcent/2+_this.growth)+'%)';
 			_this.drawPie(angle,color);
 			if (_this.growth == 0) {
@@ -129,4 +134,11 @@ function Pie(id, hue, saturation) {
 			}
 		 },25);
 	}
+	$(window).resize(function() {
+		it.width = $('#'+id).parent().width();
+		it.height = $('#'+id).parent().width();
+		_this.decalage = it.width/25;
+		_this.radius = it.width/2.2-_this.decalage;
+		_this.drawPie(_this.angle,_this.color);
+	});
 }

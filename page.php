@@ -10,8 +10,8 @@ function page_renderer($status){
 		<title>Aldebaran Desombergh - Web Developer</title>
 		<link rel="icon" href="assets/images/favicon.ico">
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,800|Open+Sans:300,400,700|Bungee:400" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">		<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,800|Open+Sans:300,400,700|Bungee:400" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.min.css" />
 		<link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox.min.css">
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -41,7 +41,7 @@ function page_renderer($status){
 		<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
 		<script type="text/javascript" src="assets/js/Pie.js"></script>
-		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="assets/js/jquery.fullPage.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
 		<script type="text/javascript" src="assets/js/main.js"></script>
