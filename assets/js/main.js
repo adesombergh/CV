@@ -36,6 +36,13 @@ $(document).ready(function(){
                 pipopie.fillPie();
                 learnpie.fillPie();
             }
+            if (index == 1){
+                $('.to-top').fadeOut();
+
+            } else {
+                $('.to-top').fadeIn();
+
+            }
         }
 
     });
@@ -73,5 +80,11 @@ $(document).ready(function(){
     	return goodToGO;
     });
 
+	
+	$('.to-top').click(function(e) {
+        e.preventDefault();
+        $.fn.fullpage.moveTo('section1');
+	    return false;
+    });
 
 });

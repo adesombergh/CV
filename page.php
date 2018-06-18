@@ -37,7 +37,7 @@ function page_renderer($status){
 				<?php include_once('sections/8final.php'); ?>
 			</div>
 		</div>
-
+		<a href="#site" class="to-top soft-scroll" style="display: block;"><span class="glyphicon glyphicon-arrow-up"></span></a>
 		<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
 		<script type="text/javascript" src="assets/js/Pie.js"></script>

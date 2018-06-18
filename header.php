@@ -14,7 +14,7 @@
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav" id="menu">
 	        <li data-menuanchor="section1"><a href="#section1">Aldebaran Desombergh</a></li>
-	        <li data-menuanchor="section2"><a href="#section2">Résumé</a></li>
+	        <li data-menuanchor="section2"><a href="#section2">Intro</a></li>
 	        <li data-menuanchor="section3"><a href="#section3">Formations</a></li>
 	        <li data-menuanchor="section4"><a href="#section4">Skills</a></li>
 	        <li data-menuanchor="section5"><a href="#section5">Portfolio</a></li>
